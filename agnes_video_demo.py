@@ -9,6 +9,9 @@ import sys
 import time
 
 import requests
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Windows 控制台默认 GBK，重新配置为 UTF-8 以避免中文乱码
 if hasattr(sys.stdout, "reconfigure"):
